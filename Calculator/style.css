@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+body {
+    background-color: rgb(135, 178, 235);
+    margin-top: 150px;
+}
+
+.calculator {
+    padding: 5px;
+    border-radius: 1em;
+    height: 380px;
+    width: 400px;
+    margin: auto;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.display-box {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #FDEBF7;
+    border: solid black 0.5px;
+    color: black;
+    border-radius: 5px;
+    width: 300px;
+    height: 90px;
+    margin-left: 50px;
+}
+
+.button {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #D9D7F1;
+    color: black;
+    border: solid black 0.5px;
+    width: 50px;
+    border-radius: 5px;
+    height: 70%;
+    outline: none;
+    margin: 0px 2px;
+}
+
+.button:active {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
